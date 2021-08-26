@@ -4,83 +4,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
     
-    <title>Hayley Clarke</title>
+    <title>Hayley Clarke Portfolio</title>
 </head>
 <body>
-  <!-- <div class="logo">
-    <img src="images/logo.png" alt="logo">
-  </div> -->
 
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand active" href="index.html">HOME</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navcontainer">   
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    
+            <li class="nav-list-item">
+              <a class="nav-link" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link" href="work.html">MY WORK</a>
+          </li>
   
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-list-item">
+              <a class="nav-link" href="about.html">CONTACT</a>
+            </li>
+          </ul>
+          <a class="btn social icon" href="https://www.behance.net/hayleyclarke1"><i class="fa fa-behance"></i></a>
+          <a class="btn social icon" href="https://www.linkedin.com/in/hayley-clarke-b99570163/"><i class="fa fa-linkedin"></i></a>
+          <!-- <a class="btn social icon" href="https://www.instagram.com/creativechickpea/"><i class="fab fa-instagram"></i></i></a> -->
+        </div>
+      </nav>
 
-        <li class="nav-list-item">
-            <a class="nav-link" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-list-item">
-          <a class="nav-link" href="work.html">MY WORK</a>
-        </li>
-        <li class="nav-list-item">
-            <a class="nav-link" href="about.html">CONTACT</a>
-          </li>  
-      </ul>
-      <a class="btn social icon" href="https://www.behance.net/hayleyclarke1"><i class="fa fa-behance"></i></a>
-      <a class="btn social icon" href="https://github.com/hayley19"><i class="fa fa-github"></i></a>
-      <a class="btn social icon" href="https://www.linkedin.com/in/hayley-clarke-b99570163/"><i class="fa fa-linkedin"></i></a>
-    </div>
-  </nav>
-
-
-
-  <div class="home-container">
-  <!-- <h1 class="home-header">Hello!<br>Im Hayley</h1> -->
-  <div><img class="home-logo" src="images/HC.png" alt="logo"></div>
-  <p1>Designer, Developer & Illustrator</p1>
+  <div class="home-container animate__animated animate__fadeInUp">
+  <div><img class="home-logo" src="img/hayleyclarke.png" alt="logo"></div>
+  <div class="home-text"><p class="text-muted">Designer, Developer & Illustrator</p></div>
 </div>
 
-  <div class="container mt-5">
+  <div class="container mt-5 animate__animated animate__fadeInUp">
     <div class="row">
-   <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 btn-container container">
-      <button type="button" class="btn about-btn home-btn mx-auto"><a href="about.html">About</a></button>
+   <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 btn-container container ">
+      <button type="button" class="home-btn mx-auto"><a href="about.html">About Me</a></button>
     </div>     
 
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 btn-container container">
-      <button type="button" class="btn work-btn home-btn mx-auto"><a href="work.html">My Work</a></button>
+      <button type="button" class="home-btn mx-auto"><a href="work.html">My Work</a></button>
     </div>
   </div>
 </div>    
 
-
-
- 
+<div class="row-outer">
+  <div class="wrapper">
+    <span class="shape"></span>
+    <span class="shape"></span>
+    <span class="shape"></span>
+    <span class="shape"></span>
+    <span class="shape"></span>
+    <span class="shape"></span>
+  </div>
+</div>
 
   <!-- FOOTER -->
-  <footer class="container-fluid text-light text-center mt-5 p-3 footer">
-    <p class="text-muted"> ©2021<br>Developed by Hayley Clarke</p>
+  <footer class="footer container-fluid text-light text-center mt-5 p-3">
+    <p class="text-muted">©2021<br>Developed by Hayley Clarke</p>
   </footer>
 
-    <!-- JQUERY - POPPER - BOOTSTRAP - APP.JS -->
-    <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script> -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-
 
 </body>
 </html>
