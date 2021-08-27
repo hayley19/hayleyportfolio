@@ -374,6 +374,11 @@ h4 {
 @media screen and (max-width: 479px) {
   #parallax .block {padding: 20px; width:290px;}
 } */
+
+.parrallax-one, .parrallax-two, .parrallax-three, .parrallax-four, .parrallax-five{
+width: 100px;
+height: 100px;
+}
 /* PARALAX */
 
 /* WORKMOBILE */
