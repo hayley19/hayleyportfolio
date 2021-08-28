@@ -2,11 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins-light;
     color: #004B87; 
   }
 
   html { overflow-y: scroll; 
+  }
+
+  p{
+    font-family: 'poppins-light';
+  }
+
+  .header{
+    font-family: 'poppins-bold';
   }
 /* NAV */
 .nav{
@@ -138,12 +145,6 @@ body {
 /* BACKGROUND ANIMATION */
 
 /* HOME */
-   .header {
-    font-size: 50px;
-    font-weight: 700px;
-    margin-left: 15px;
-    font-family: 'Alfa Slab One', cursive;
-   }
 
    .btn-container{
     display: flex; 
@@ -234,13 +235,12 @@ color: #f5f5f5 !important; ;
   }
 
   .about-header{
-    font-family: 'Shrikhand';
+    font-family: 'Shrikhand', cursive;
     font-size: 70px;
 
   }
   .form-header{
     padding-bottom: 10px;
-    font-family: poppins-bold;
     font-size: 35px;
   }
 /* ABOUT */
@@ -249,7 +249,6 @@ color: #f5f5f5 !important; ;
 .work-header{
   text-align: center;
   padding-top: 15px;
-  font-family: poppins-semibold;
   font-size: 30px;
 }
 .work-title {
@@ -305,8 +304,8 @@ text-align: center;
   }  
   p{
   font-size: 16px;
-  font-family: poppins-light;
   }
+
   .header{
     font-size: 35px;
   }
