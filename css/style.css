@@ -299,6 +299,8 @@ text-align: center;
 
 /* MOBILE */
 @media screen and (max-width: 760px) {
+
+
   html{
   overflow-x: hidden !important;
   }  
@@ -364,28 +366,16 @@ h4 {
   padding-right: 20px;
 }
 /* PARALAX */
-/* @media screen and (max-width: 959px) and (min-width: 768px) {
-  #parallax- .block {padding: 40px; width:620px;}
-}
-@media screen and (max-width: 767px) {
-  #parallax .block {padding: 30px; width:420px;}
-  #parallax h2 {font-size:30px;}
-  #parallax .block {padding: 30px;}
-  #parallax #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
-}
-@media screen and (max-width: 479px) {
-  #parallax .block {padding: 20px; width:290px;}
-} */
 
 .parrallax-one, .parrallax-two, .parrallax-three, .parrallax-four, .parrallax-five{
-    width: 100%;
-    height: auto;
-    background-attachment: unset;
+    width: 100% !important;
+    height: auto !important;
+    background-attachment: unset !important;
+
+}
 }
 /* PARALAX */
 
 /* WORKMOBILE */
 
-}
 
-  
