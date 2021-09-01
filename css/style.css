@@ -367,12 +367,20 @@ h4 {
   padding-right: 20px;
 }
 /* PARALAX */
-
+/* 
 .parrallax-one, .parrallax-two, .parrallax-three, .parrallax-four, .parrallax-five{
     width: 100% !important;
     height: auto !important;
-    background-attachment: scroll !important;
-
+    background-attachment: scroll !important; */
+    #parallax .parallax-one,
+    #parallax .parallax-two,
+    #parallax .parallax-three,
+    #parallax .parallax-four,
+    #parallax .parallax-five {
+        background-attachment: scroll;
+        width: 100% !important;
+        height: auto !important;
+    }
 
 }
 }
