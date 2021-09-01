@@ -370,7 +370,8 @@ h4 {
 .parrallax-one, .parrallax-two, .parrallax-three, .parrallax-four, .parrallax-five{
     width: 100% !important;
     height: auto !important;
-    background-attachment: scroll;
+    background-attachment: scroll !important;
+    
 
 }
 }
