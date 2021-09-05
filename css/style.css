@@ -279,21 +279,21 @@ color: #f5f5f5 !important;
 
 /* Section - Parallax */
 #parallax .parallax-one {
-  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/evg.png'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;
+  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/evg.png'); background-attachment: fixed; background-size: cover;  -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;
 }
 #parallax .parallax-two {
-  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/gopi.png'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
+  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/gopi.png'); background-attachment: fixed; background-size: cover;  -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
 }
 #parallax .parallax-three {
-  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/mecca.png'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
+  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/mecca.png'); background-attachment: fixed; background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
 }
 
 #parallax .parallax-four {
-  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/z.png'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
+  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/z.png'); background-attachment: fixed; background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
 }
 
 #parallax .parallax-five {
-  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/climate.png'); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
+  padding-top: 200px; padding-bottom: 400px; overflow: hidden; position: relative; width: 100%; background-image: url('img/climate.png'); background-attachment: fixed; background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;
 }
 /* PARALAX */
 
@@ -367,11 +367,6 @@ h4 {
   padding-right: 20px;
 }
 /* PARALAX */
-/* 
-.parrallax-one, .parrallax-two, .parrallax-three, .parrallax-four, .parrallax-five{
-    width: 100% !important;
-    height: auto !important;
-    background-attachment: scroll !important; */
     #parallax .parallax-one,
     #parallax .parallax-two,
     #parallax .parallax-three,
@@ -383,7 +378,7 @@ h4 {
     }
 
 }
-}
+
 /* PARALAX */
 
 /* WORKMOBILE */
